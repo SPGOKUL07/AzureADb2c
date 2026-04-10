@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter var, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #e6e1f3 0%, #ffffff 100%);
+}
+
+.portal-bg-con {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.portal-bg-con .syskey-logo {
+    width: 420px;
+    margin-bottom: 24px;
+}
+
+/* CARD */
+.login-card {
+    width: 100%;
+    max-width: 480px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.10);
+    padding: 36px 40px;
+    margin-bottom: 40px;
+}
+
+/* B2C FORM STYLES */
+#api { width: 100%; }
+
+#api .heading {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#api .entry-item {
+    margin-bottom: 16px;
+}
+
+#api .entry-item label {
+    display: block;
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+#api .entry-item input[type="email"],
+#api .entry-item input[type="password"],
+#api .entry-item input[type="text"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #dde3f0;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.2s;
+    background: #fff;
+    color: #333;
+}
+
+#api .entry-item input:focus {
+    border-color: #1171ce;
+    box-shadow: 0 0 0 3px rgba(17, 113, 206, 0.10);
+}
+
+#api .buttons {
+    margin-top: 20px;
+}
+
+#api .buttons button,
+#api .buttons input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #1171ce;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#api .buttons button:hover,
+#api .buttons input[type="submit"]:hover {
+    background: #0f5fad;
+}
+
+#api .error {
+    color: #c0392b;
+    font-size: 13px;
+    margin-top: 6px;
+    background: #ffeaea;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+#api .create {
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+    margin-top: 16px;
+}
+
+#api .create a {
+    color: #1171ce;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#api .forgot {
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+#api .forgot a {
+    font-size: 12px;
+    color: #1171ce;
+    text-decoration: none;
+}
+
+#api .divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 16px 0;
+}
+
+#api .divider label {
+    font-size: 12px;
+    color: #aaa;
+    white-space: nowrap;
+}
+
+#api .divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding: 0 20px 10px;
+}
+
+footer p {
+    color: #6e7174;
+    font-size: 12px;
+}
+
+.footer-logo {
+    width: 120px;
+    height: 30px;
+}
