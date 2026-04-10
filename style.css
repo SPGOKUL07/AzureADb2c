@@ -24,6 +24,14 @@ body {
 
 .portal-bg-con .syskey-logo {
     width: 280px;
+    margin-bottom: 4px;
+}
+
+.portal-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1171ce;
+    letter-spacing: 2px;
     margin-bottom: 24px;
 }
 
